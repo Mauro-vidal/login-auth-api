@@ -3,11 +3,9 @@ package com.projects.login_auth_api.controllers;
 import com.projects.login_auth_api.domain.user.User;
 import com.projects.login_auth_api.repositories.UserRepository;
 import lombok.RequiredArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.security.crypto.password.PasswordEncoder;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -18,6 +16,7 @@ public class UserController {
 
 
     private final UserRepository repository;
+    private final PasswordEncoder passwordEncoder;
 
     @GetMapping
     public ResponseEntity<String> getUser() {
@@ -28,5 +27,18 @@ public class UserController {
     public ResponseEntity<List<User>> getAllUser() {
         List<User> users = repository.findAll();
         return ResponseEntity.ok(users);
+    }
+
+    @PutMapping("/{id}")
+    public ResponseEntity<User> updateUser(@PathVariable String id, @RequestBody User updatedUser) {
+        return repository.findById(id).map(user -> {
+            user.setName(updatedUser.getName());
+            user.setEmail(updatedUser.getEmail());
+            user.setPassword(passwordEncoder.encode(updatedUser.getPassword()));
+            repository.save(user);
+            return ResponseEntity.ok(user);
+        }).orElse(ResponseEntity.notFound().build());
+
+
     }
 }
