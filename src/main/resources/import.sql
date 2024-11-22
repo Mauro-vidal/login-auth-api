@@ -1,0 +1,5 @@
+INSERT INTO users (id, name, email, password) VALUES ('564b84dc-262b-41d8-9d8c-fca107b87144', 'Danilo Sérgio Araújo', 'danilo_araujo@gmail.com.br', 'WPCgmdlmwQ');
+INSERT INTO users (id, name, email, password) VALUES ('7055af5f-2923-4025-85c1-04b57f74ccb6', 'Sara Rosa Rodrigues', 'sara_rosa_rodrigues@gmail.com.br', 'P9iKconffS');
+INSERT INTO users (id, name, email, password) VALUES ('99636a40-894b-43dd-957b-c83d8eaf4a6e', 'Danilo Alexandre Eduardo da Mata', 'danilo.alexandre.damata@fepextrusao.com.br', 'Wrgp0ZjiW5');
+INSERT INTO users (id, name, email, password) VALUES ('e9d7e8ba-ecc3-4ea1-a864-8b2737dfb91a', 'Victor Raul Augusto Gonçalves', 'victor_raul_goncalves@fibran.com.br', 'Zo1I3GczCR');
+INSERT INTO users (id, name, email, password) VALUES ('ad414792-bab8-4421-b3bc-8f1e891f65f1', 'Lorena Vera Costa', 'lorena_costa@truran.com.br', 'h85S0CyQou');
