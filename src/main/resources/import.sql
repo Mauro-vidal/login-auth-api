@@ -1,5 +1,5 @@
-INSERT INTO users (id, name, email, password) VALUES ('564b84dc-262b-41d8-9d8c-fca107b87144', 'Danilo Sérgio Araújo', 'danilo_araujo@gmail.com.br', 'WPCgmdlmwQ');
-INSERT INTO users (id, name, email, password) VALUES ('7055af5f-2923-4025-85c1-04b57f74ccb6', 'Sara Rosa Rodrigues', 'sara_rosa_rodrigues@gmail.com.br', 'P9iKconffS');
-INSERT INTO users (id, name, email, password) VALUES ('99636a40-894b-43dd-957b-c83d8eaf4a6e', 'Danilo Alexandre Eduardo da Mata', 'danilo.alexandre.damata@fepextrusao.com.br', 'Wrgp0ZjiW5');
-INSERT INTO users (id, name, email, password) VALUES ('e9d7e8ba-ecc3-4ea1-a864-8b2737dfb91a', 'Victor Raul Augusto Gonçalves', 'victor_raul_goncalves@fibran.com.br', 'Zo1I3GczCR');
-INSERT INTO users (id, name, email, password) VALUES ('ad414792-bab8-4421-b3bc-8f1e891f65f1', 'Lorena Vera Costa', 'lorena_costa@truran.com.br', 'h85S0CyQou');
+INSERT INTO users (id, name, email, password) VALUES ('564b84dc-262b-41d8-9d8c-fca107b87144', 'Danilo Sérgio Araújo', 'danilo_araujo@gmail.com.br', '$2b$12$Dx55wOiF0aP5/RcbYchjXOA0f98FvhakwAZVEo8L55W.mYRrTX2NK');
+INSERT INTO users (id, name, email, password) VALUES ('7055af5f-2923-4025-85c1-04b57f74ccb6', 'Sara Rosa Rodrigues', 'sara_rosa_rodrigues@gmail.com.br', '$2b$12$w2LFg8IG62k6TA82yufmUeqBXpcjfymB5Un7syySJy2OZXSOZmh5e');
+INSERT INTO users (id, name, email, password) VALUES ('99636a40-894b-43dd-957b-c83d8eaf4a6e', 'Danilo Alexandre Eduardo da Mata', 'danilo.alexandre.damata@fepextrusao.com.br', '$2b$12$ilFoYCozHbmE9qMnJn5OKO38/oSgz57ds.gFcpctlH.gp7zUWnqn.');
+INSERT INTO users (id, name, email, password) VALUES ('e9d7e8ba-ecc3-4ea1-a864-8b2737dfb91a', 'Victor Raul Augusto Gonçalves', 'victor_raul_goncalves@fibran.com.br', '$2b$12$x8xNeP88x.Zx5WRV2qFgweJ1S4AtF9e4rR/Uv.6LbyUl68YEB0hpG');
+INSERT INTO users (id, name, email, password) VALUES ('ad414792-bab8-4421-b3bc-8f1e891f65f1', 'Lorena Vera Costa', 'lorena_costa@truran.com.br', '$2b$12$kzMLF83xl1okMu/fh2I6M.gTiah7IIRLvTpMdnZtI5wkRCuiY3jNK');
