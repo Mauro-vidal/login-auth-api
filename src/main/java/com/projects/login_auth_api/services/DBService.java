@@ -24,8 +24,9 @@ public class DBService {
         User user4 = new User(null, "Victor Raul Augusto Gonçalves", "victor_raul_goncalves@fibran.com.br", passwordEncoder.encode("npnb8q0HpW"));
         User user5 = new User(null, "Lorena Vera Costa", "lorena_costa@truran.com.br", passwordEncoder.encode("bJpi1NN8DU"));
         User user6 = new User(null, "Mauro João Mendes Vidal", "maurovidal@gmail.com", passwordEncoder.encode("bJpi1NN8DU"));
+        User user7 = new User(null, "Fabio Augusto", "fabio@gmail.com", passwordEncoder.encode("fabioaugusto123"));
 
-        userRepository.saveAll(Arrays.asList(user1, user2, user3, user4, user5, user6));
+        userRepository.saveAll(Arrays.asList(user1, user2, user3, user4, user5, user6, user7));
     }
 
 
